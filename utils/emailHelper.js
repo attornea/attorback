@@ -16,7 +16,7 @@ exports.sendEmail = async (message, email) => {
     var mailOptions = {
         from: 'attornea@gmail.com',
         to: email,
-        subject: 'Reset Password',
+        subject: 'Verify Email',
         text: `${message}`
         // html: '<h1>Hi Smartherd</h1><p>Your Messsage</p>'        
     };
